@@ -1,5 +1,5 @@
 /// <reference types="react" />
-import "!style-loader!css-loader!postcss-loader!./Button.scss";
+import "!postcss-loader!./Button.scss";
 export interface ButtonProps {
     label?: string;
     color?: "orange" | "blue" | "green" | "red";

@@ -1,6 +1,7 @@
 import React from "react";
 // import "../../tailwind.scss";
-import "!style-loader!css-loader!postcss-loader!./Button.scss";
+// import "!style-loader!css-loader!postcss-loader!./Button.scss";
+import "!postcss-loader!./Button.scss";
 // import "./Button.scss";
 
 export interface ButtonProps {
