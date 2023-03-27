@@ -1,0 +1,90 @@
+.AButton {
+  @apply text-white rounded-md;
+
+  &.size-small {
+    @apply text-sm;
+    @apply py-1 px-5;
+  }
+
+  &.size-medium {
+    @apply py-2 px-6;
+    @apply text-base;
+  }
+
+  &.size-large {
+    @apply py-3 px-8;
+    @apply text-lg;
+  }
+
+  &.color-orange:not(.outline) {
+    @apply bg-orange-700;
+
+    &:hover {
+      @apply bg-orange-800;
+    }
+  }
+
+  &.color-orange.outline {
+    @apply bg-white border-0 border-orange-700 text-orange-700;
+
+    &:hover {
+      @apply border-orange-800 text-orange-800;
+    }
+  }
+
+  &.color-blue:not(.outline) {
+    @apply bg-blue-500;
+
+    &:hover {
+      @apply bg-blue-600;
+    }
+  }
+
+  &.color-blue.outline {
+    @apply bg-white border-0 border-blue-500 text-blue-500;
+
+    &:hover {
+      @apply border-blue-600 text-blue-600;
+    }
+  }
+
+  &.color-green:not(.outline) {
+    @apply bg-green-500;
+
+    &:hover {
+      @apply bg-green-600;
+    }
+  }
+
+  &.color-green.outline {
+    @apply bg-white border-0 border-green-500 text-green-500;
+
+    &:hover {
+      @apply border-green-600 text-green-600;
+    }
+  }
+
+  &.color-red:not(.outline) {
+    @apply bg-red-600;
+
+    &:hover {
+      @apply bg-red-500;
+    }
+  }
+
+  &.color-red.outline {
+    @apply bg-white border-0 border-red-600 text-red-600;
+
+    &:hover {
+      @apply border-red-500 text-red-500;
+    }
+  }
+
+  &:disabled {
+    @apply bg-gray-200 text-gray-700 !important;
+  }
+
+  &.outline:disabled {
+    @apply bg-white border-gray-700 text-gray-700 !important;
+  }
+}
