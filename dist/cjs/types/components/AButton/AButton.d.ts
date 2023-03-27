@@ -1,5 +1,7 @@
 /// <reference types="react" />
-interface AButtonProps {
+import "../../tailwind.scss";
+import "./AButton.scss";
+export interface AButtonProps {
     label?: string;
     color?: "orange" | "blue" | "green" | "red";
     size?: "small" | "medium" | "large";
@@ -8,5 +10,4 @@ interface AButtonProps {
     onClick?: () => void;
 }
 declare const AButton: ({ color, size, outline, label, ...props }: AButtonProps) => JSX.Element;
-
-export { AButton };
+export default AButton;

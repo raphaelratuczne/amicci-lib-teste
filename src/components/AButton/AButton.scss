@@ -16,7 +16,7 @@
     @apply text-lg;
   }
 
-  &.color-orange:not(.outline) {
+  &.color-orange:not(.outline):not(:disabled) {
     @apply bg-orange-700;
 
     &:hover {
@@ -24,7 +24,7 @@
     }
   }
 
-  &.color-orange.outline {
+  &.color-orange.outline:not(:disabled) {
     @apply bg-white border-0 border-orange-700 text-orange-700;
 
     &:hover {
@@ -32,7 +32,7 @@
     }
   }
 
-  &.color-blue:not(.outline) {
+  &.color-blue:not(.outline):not(:disabled) {
     @apply bg-blue-500;
 
     &:hover {
@@ -40,7 +40,7 @@
     }
   }
 
-  &.color-blue.outline {
+  &.color-blue.outline:not(:disabled) {
     @apply bg-white border-0 border-blue-500 text-blue-500;
 
     &:hover {
@@ -48,7 +48,7 @@
     }
   }
 
-  &.color-green:not(.outline) {
+  &.color-green:not(.outline):not(:disabled) {
     @apply bg-green-500;
 
     &:hover {
@@ -56,7 +56,7 @@
     }
   }
 
-  &.color-green.outline {
+  &.color-green.outline:not(:disabled) {
     @apply bg-white border-0 border-green-500 text-green-500;
 
     &:hover {
@@ -64,7 +64,7 @@
     }
   }
 
-  &.color-red:not(.outline) {
+  &.color-red:not(.outline):not(:disabled) {
     @apply bg-red-600;
 
     &:hover {
@@ -72,7 +72,7 @@
     }
   }
 
-  &.color-red.outline {
+  &.color-red.outline:not(:disabled) {
     @apply bg-white border-0 border-red-600 text-red-600;
 
     &:hover {
@@ -81,10 +81,10 @@
   }
 
   &:disabled {
-    @apply bg-gray-200 text-gray-700 !important;
+    @apply bg-gray-200 text-gray-700;
   }
 
   &.outline:disabled {
-    @apply bg-white border-gray-700 text-gray-700 !important;
+    @apply bg-white border-gray-700 text-gray-700;
   }
 }

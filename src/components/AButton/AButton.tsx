@@ -1,10 +1,9 @@
 import React from "react";
-// import "../../tailwind.scss";
-// import "!style-loader!css-loader!postcss-loader!./Button.scss";
-import "!postcss-loader!./Button.scss";
-// import "./Button.scss";
+import "../../tailwind.scss";
+import "./AButton.scss";
+// import "!style-loader!css-loader!postcss-loader!./AButton.scss";
 
-export interface ButtonProps {
+export interface AButtonProps {
   label?: string;
   color?: "orange" | "blue" | "green" | "red";
   size?: "small" | "medium" | "large";
@@ -13,13 +12,13 @@ export interface ButtonProps {
   onClick?: () => void;
 }
 
-const Button = ({
+const AButton = ({
   color = "orange",
   size = "medium",
   outline = false,
   label,
   ...props
-}: ButtonProps) => {
+}: AButtonProps) => {
   const classes = [
     "AButton",
     `color-${color}`,
@@ -33,4 +32,4 @@ const Button = ({
   );
 };
 
-export default Button;
+export default AButton;
