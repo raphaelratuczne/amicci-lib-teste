@@ -51,6 +51,7 @@ module.exports = {
         900: "#191D26",
       },
       "gray-light": "#f0f3ff",
+      transparent: "transparent",
       white: "#fff",
     },
     fontFamily: {

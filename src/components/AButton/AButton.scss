@@ -25,7 +25,7 @@
   }
 
   &.color-orange.outline:not(:disabled) {
-    @apply bg-white border-0 border-orange-700 text-orange-700;
+    @apply bg-transparent border-0 border-orange-700 text-orange-700;
 
     &:hover {
       @apply border-orange-800 text-orange-800;
@@ -41,7 +41,7 @@
   }
 
   &.color-blue.outline:not(:disabled) {
-    @apply bg-white border-0 border-blue-500 text-blue-500;
+    @apply bg-transparent border-0 border-blue-500 text-blue-500;
 
     &:hover {
       @apply border-blue-600 text-blue-600;
@@ -57,7 +57,7 @@
   }
 
   &.color-green.outline:not(:disabled) {
-    @apply bg-white border-0 border-green-500 text-green-500;
+    @apply bg-transparent border-0 border-green-500 text-green-500;
 
     &:hover {
       @apply border-green-600 text-green-600;
@@ -73,7 +73,7 @@
   }
 
   &.color-red.outline:not(:disabled) {
-    @apply bg-white border-0 border-red-600 text-red-600;
+    @apply bg-transparent border-0 border-red-600 text-red-600;
 
     &:hover {
       @apply border-red-500 text-red-500;
@@ -85,6 +85,6 @@
   }
 
   &.outline:disabled {
-    @apply bg-white border-gray-700 text-gray-700;
+    @apply bg-transparent border-gray-700 text-gray-700;
   }
 }

@@ -1,6 +1,6 @@
 {
   "name": "amiccilibteste",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "description": "teste de lib de componentes react",
   "scripts": {
     "rollup": "rollup -c",

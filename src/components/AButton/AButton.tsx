@@ -1,7 +1,6 @@
 import React from "react";
-import "../../tailwind.scss";
+// import "../../tailwind.scss";
 import "./AButton.scss";
-// import "!style-loader!css-loader!postcss-loader!./AButton.scss";
 
 export interface AButtonProps {
   label?: string;

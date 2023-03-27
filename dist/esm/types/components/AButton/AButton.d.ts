@@ -1,5 +1,4 @@
 /// <reference types="react" />
-import "../../tailwind.scss";
 import "./AButton.scss";
 export interface AButtonProps {
     label?: string;
